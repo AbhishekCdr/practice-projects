@@ -1,12 +1,14 @@
 import React from "react";
 import Counter from "./App/Counter";
 import Notes from "./App/Notes";
-
 import Course from "./App/Exercises/Course";
 import PhoneBook from "./App/Exercises/PhoneBook";
 import axios from "axios";
 import CallingApi from "./App/CallingApi";
 import Parent from "./App/ChildToParent/Parent";
+import UseEffect from "./App/UseEffect";
+import DigitalClock from "./App/DigitalClock";
+import UseRef from "./App/UseRef";
 
 const App = () => {
   const book = [];
@@ -90,7 +92,10 @@ const App = () => {
       {/* <Course detail={courses} /> */}
       {/* <PhoneBook book={book} /> */}
       {/* <CallingApi /> */}
-      <Parent />
+      {/* <Parent /> */}
+      {/* <UseEffect /> */}
+      {/* <DigitalClock /> */}
+      <UseRef />
     </>
   );
 };
