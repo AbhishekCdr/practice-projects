@@ -9,6 +9,7 @@ import Parent from "./App/ChildToParent/Parent";
 import UseEffect from "./App/UseEffect";
 import DigitalClock from "./App/DigitalClock";
 import UseRef from "./App/UseRef";
+import Form from "./App/Forms/Form";
 
 const App = () => {
   const book = [];
@@ -95,7 +96,8 @@ const App = () => {
       {/* <Parent /> */}
       {/* <UseEffect /> */}
       {/* <DigitalClock /> */}
-      <UseRef />
+      {/* <UseRef /> */}
+      <Form />
     </>
   );
 };
