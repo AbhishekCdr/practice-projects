@@ -10,6 +10,9 @@ import UseEffect from "./App/UseEffect";
 import DigitalClock from "./App/DigitalClock";
 import UseRef from "./App/UseRef";
 import Form from "./App/Forms/Form";
+import Conditional from "./App/ConditionalRendering/Conditional";
+import ListComponent from "./App/ApiList/ListComponent";
+import MultipleState from "./App/MultipleState/MultipleState";
 
 const App = () => {
   const book = [];
@@ -90,14 +93,17 @@ const App = () => {
     <>
       {/* <Counter /> */}
       {/* <Notes notes={notes} /> */}
-      {/* <Course detail={courses} /> */}
+      {/* <Course detail={courses} />/ */}
       {/* <PhoneBook book={book} /> */}
       {/* <CallingApi /> */}
       {/* <Parent /> */}
       {/* <UseEffect /> */}
       {/* <DigitalClock /> */}
       {/* <UseRef /> */}
-      <Form />
+      {/* <Form /> */}
+      {/* <Conditional /> */}
+      {/* <ListComponent /> */}
+      {/* <MultipleState /> */}
     </>
   );
 };
