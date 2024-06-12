@@ -4,7 +4,7 @@ import Form from "../Forms/Form";
 import ListComponent from "../ApiList/ListComponent";
 import DigitalClock from "../DigitalClock";
 import NotFoundPage from "./NotFoundPage";
-import { Suspense } from "react";
+import React, { Suspense } from "react";
 
 const ListPageLazy = React.lazy(() => import("../ApiList/ListComponent"));
 
